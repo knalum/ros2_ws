@@ -1,0 +1,17 @@
+/home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/publisher
+/home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/subscriber
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/ament_index/resource_index/package_run_dependencies/my_robot_control_cpp
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/ament_index/resource_index/parent_prefix_path/my_robot_control_cpp
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/ament_prefix_path.sh
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/ament_prefix_path.dsv
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/path.sh
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/path.dsv
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/local_setup.bash
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/local_setup.sh
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/local_setup.zsh
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/local_setup.dsv
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/package.dsv
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/ament_index/resource_index/packages/my_robot_control_cpp
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/cmake/my_robot_control_cppConfig.cmake
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/cmake/my_robot_control_cppConfig-version.cmake
+/home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/package.xml

@@ -32,7 +32,7 @@ class TurtleControllerNode(Node):
             self.get_logger().info("Set color to red")
             self.call_set_pen_service(255,0,0,3,0)
             self.previous_x=pose.x
-        elif pose<=5.5 and self.previous_x>5.5:
+        elif pose.x<=5.5 and self.previous_x>5.5:
             self.previous_x=pose.x
             self.get_logger().info("Set color to green")
             self.call_set_pen_service(0,255,0,3,0)
@@ -48,7 +48,7 @@ class TurtleControllerNode(Node):
         request.width = width
         request.off = off
         future = client.call_async(request)
-        future.add_done_callback(partial(self.call_set_pen_service))
+        future.add_done_callback(partial(self.callback_set_pen))
 
 
     def callback_set_pen(self,future):

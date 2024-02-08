@@ -1,0 +1,35 @@
+[0.070s] Invoking command in '/home/knalum/ros2_ws/build/my_robot_control_cpp': CMAKE_PREFIX_PATH=/home/knalum/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/knalum/ros2_ws/src/my_robot_control_cpp -DCMAKE_INSTALL_PREFIX=/home/knalum/ros2_ws/install/my_robot_control_cpp
+[0.168s] -- The C compiler identification is GNU 11.4.0
+[0.239s] -- The CXX compiler identification is GNU 11.4.0
+[0.248s] -- Detecting C compiler ABI info
+[0.306s] -- Detecting C compiler ABI info - done
+[0.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.312s] -- Detecting C compile features
+[0.313s] -- Detecting C compile features - done
+[0.317s] -- Detecting CXX compiler ABI info
+[0.385s] -- Detecting CXX compiler ABI info - done
+[0.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.389s] -- Detecting CXX compile features
+[0.389s] -- Detecting CXX compile features - done
+[0.395s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.555s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.659s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.659s]   By not providing "Findrclpp.cmake" in CMAKE_MODULE_PATH this project has
+[0.660s]   asked CMake to find a package configuration file provided by "rclpp", but
+[0.660s]   CMake did not find one.
+[0.660s] 
+[0.660s]   Could not find a package configuration file provided by "rclpp" with any of
+[0.660s]   the following names:
+[0.660s] 
+[0.660s]     rclppConfig.cmake
+[0.660s]     rclpp-config.cmake
+[0.660s] 
+[0.660s]   Add the installation prefix of "rclpp" to CMAKE_PREFIX_PATH or set
+[0.660s]   "rclpp_DIR" to a directory containing one of the above files.  If "rclpp"
+[0.660s]   provides a separate development package or SDK, be sure it has been
+[0.660s]   installed.
+[0.660s] 
+[0.660s] [0m
+[0.660s] -- Configuring incomplete, errors occurred!
+[0.660s] See also "/home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles/CMakeOutput.log".
+[0.686s] Invoked command in '/home/knalum/ros2_ws/build/my_robot_control_cpp' returned '1': CMAKE_PREFIX_PATH=/home/knalum/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/knalum/ros2_ws/src/my_robot_control_cpp -DCMAKE_INSTALL_PREFIX=/home/knalum/ros2_ws/install/my_robot_control_cpp
