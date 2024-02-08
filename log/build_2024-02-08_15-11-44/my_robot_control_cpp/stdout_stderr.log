@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[ 33%] Built target subscriber
+[ 50%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o[0m
+[ 83%] Built target publisher
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: No such file or directory
+    2 | #include [01;31m[K"turtlesim/msg/pose.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pose_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

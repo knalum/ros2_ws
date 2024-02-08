@@ -1,0 +1,22 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid PoseSubscriber::topic_callback(const Pose&) const[m[K’:
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:15:47:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [6][m[K’ and ‘[01m[Kconst _x_type[m[K’ {aka ‘[01m[Kconst float[m[K’} to binary ‘[01m[Koperator+[m[K’
+   15 |         RCLCPP_INFO(this->get_logger(),[32m[K"Pose "[m[K[01;31m[K+[m[K[34m[Kpose.x[m[K+" , "+pose.y);
+      |                                        [32m[K~~~~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~[m[K
+      |                                        [32m[K|[m[K            [34m[K|[m[K
+      |                                        [32m[K|[m[K            [34m[Kconst _x_type {aka const float}[m[K
+      |                                        [32m[Kconst char [6][m[K
+gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pose_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

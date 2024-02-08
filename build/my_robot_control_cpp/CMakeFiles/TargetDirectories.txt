@@ -2,6 +2,8 @@
 /home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles/my_robot_control_cpp_uninstall.dir
 /home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles/publisher.dir
 /home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles/subscriber.dir
+/home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles/pose_subscriber.dir
+/home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles/draw_circle.dir
 /home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles/test.dir
 /home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles/edit_cache.dir
 /home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles/rebuild_cache.dir

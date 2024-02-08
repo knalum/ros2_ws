@@ -1,0 +1,14 @@
+[0.091s] Invoking command in '/home/knalum/ros2_ws/build/my_robot_control_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knalum/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/knalum/ros2_ws/build/my_robot_control_cpp -- -j4 -l4
+[0.155s] [35m[1mConsolidate compiler generated dependencies of target draw_circle[0m
+[0.173s] [ 50%] Built target publisher
+[0.173s] [ 50%] Built target subscriber
+[0.179s] [ 87%] Built target pose_subscriber
+[0.179s] [ 87%] [32mBuilding CXX object CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o[0m
+[0.343s] [01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/draw_circle.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[0.343s]     4 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[0.343s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.343s] compilation terminated.
+[0.345s] gmake[2]: *** [CMakeFiles/draw_circle.dir/build.make:76: CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o] Error 1
+[0.345s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/draw_circle.dir/all] Error 2
+[0.345s] gmake: *** [Makefile:146: all] Error 2
+[0.350s] Invoked command in '/home/knalum/ros2_ws/build/my_robot_control_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knalum/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/knalum/ros2_ws/build/my_robot_control_cpp -- -j4 -l4

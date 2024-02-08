@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target draw_circle[0m
+[ 25%] Built target subscriber
+[ 50%] Built target publisher
+[ 75%] Built target pose_subscriber
+[ 87%] [32mBuilding CXX object CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o[0m

@@ -1,0 +1,12 @@
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:10:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |     rclcpp::Subscription[01;31m[K<[m[K
+      |                         [01;31m[K^[m[K
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:10:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:10:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:10:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:11:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K}[m[K’ token
+   11 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pose_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

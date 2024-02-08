@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[ 33%] Built target subscriber
+[ 66%] Built target publisher
+[ 83%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o[0m

@@ -223,6 +223,56 @@ subscriber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
 .PHONY : subscriber/fast
 
+#=============================================================================
+# Target rules for targets named pose_subscriber
+
+# Build rule for target.
+pose_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pose_subscriber
+.PHONY : pose_subscriber
+
+# fast build rule for target.
+pose_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_subscriber.dir/build.make CMakeFiles/pose_subscriber.dir/build
+.PHONY : pose_subscriber/fast
+
+#=============================================================================
+# Target rules for targets named draw_circle
+
+# Build rule for target.
+draw_circle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 draw_circle
+.PHONY : draw_circle
+
+# fast build rule for target.
+draw_circle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/build
+.PHONY : draw_circle/fast
+
+src/draw_circle.o: src/draw_circle.cpp.o
+.PHONY : src/draw_circle.o
+
+# target to build an object file
+src/draw_circle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o
+.PHONY : src/draw_circle.cpp.o
+
+src/draw_circle.i: src/draw_circle.cpp.i
+.PHONY : src/draw_circle.i
+
+# target to preprocess a source file
+src/draw_circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/src/draw_circle.cpp.i
+.PHONY : src/draw_circle.cpp.i
+
+src/draw_circle.s: src/draw_circle.cpp.s
+.PHONY : src/draw_circle.s
+
+# target to generate assembly for a file
+src/draw_circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/src/draw_circle.cpp.s
+.PHONY : src/draw_circle.cpp.s
+
 src/mypublisher.o: src/mypublisher.cpp.o
 .PHONY : src/mypublisher.o
 
@@ -271,6 +321,30 @@ src/mysubscriber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/src/mysubscriber.cpp.s
 .PHONY : src/mysubscriber.cpp.s
 
+src/pose_subscriber.o: src/pose_subscriber.cpp.o
+.PHONY : src/pose_subscriber.o
+
+# target to build an object file
+src/pose_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_subscriber.dir/build.make CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o
+.PHONY : src/pose_subscriber.cpp.o
+
+src/pose_subscriber.i: src/pose_subscriber.cpp.i
+.PHONY : src/pose_subscriber.i
+
+# target to preprocess a source file
+src/pose_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_subscriber.dir/build.make CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.i
+.PHONY : src/pose_subscriber.cpp.i
+
+src/pose_subscriber.s: src/pose_subscriber.cpp.s
+.PHONY : src/pose_subscriber.s
+
+# target to generate assembly for a file
+src/pose_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_subscriber.dir/build.make CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.s
+.PHONY : src/pose_subscriber.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,14 +360,22 @@ help:
 	@echo "... test"
 	@echo "... my_robot_control_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... draw_circle"
+	@echo "... pose_subscriber"
 	@echo "... publisher"
 	@echo "... subscriber"
+	@echo "... src/draw_circle.o"
+	@echo "... src/draw_circle.i"
+	@echo "... src/draw_circle.s"
 	@echo "... src/mypublisher.o"
 	@echo "... src/mypublisher.i"
 	@echo "... src/mypublisher.s"
 	@echo "... src/mysubscriber.o"
 	@echo "... src/mysubscriber.i"
 	@echo "... src/mysubscriber.s"
+	@echo "... src/pose_subscriber.o"
+	@echo "... src/pose_subscriber.i"
+	@echo "... src/pose_subscriber.s"
 .PHONY : help
 
 

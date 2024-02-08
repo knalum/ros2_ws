@@ -1,0 +1,14 @@
+[0.103s] Invoking command in '/home/knalum/ros2_ws/build/my_robot_control_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knalum/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/knalum/ros2_ws/build/my_robot_control_cpp -- -j4 -l4
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target draw_circle[0m
+[0.202s] [ 25%] Built target subscriber
+[0.218s] [ 50%] Built target publisher
+[0.223s] [ 75%] Built target pose_subscriber
+[0.236s] [ 87%] [32mBuilding CXX object CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o[0m
+[1.757s] [01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/draw_circle.cpp:[m[K In constructor ‘[01m[KDrawCircle::DrawCircle()[m[K’:
+[1.757s] [01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/draw_circle.cpp:12:93:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[1.757s]    12 |         publisher = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel",10)[01;31m[K)[m[K;
+[1.757s]       |                                                                                             [01;31m[K^[m[K
+[2.214s] gmake[2]: *** [CMakeFiles/draw_circle.dir/build.make:76: CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o] Error 1
+[2.214s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/draw_circle.dir/all] Error 2
+[2.214s] gmake: *** [Makefile:146: all] Error 2
+[2.216s] Invoked command in '/home/knalum/ros2_ws/build/my_robot_control_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knalum/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/knalum/ros2_ws/build/my_robot_control_cpp -- -j4 -l4

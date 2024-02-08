@@ -1,5 +1,7 @@
 /home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/publisher
 /home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/subscriber
+/home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/pose_subscriber
+/home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/draw_circle
 /home/knalum/ros2_ws/install/my_robot_control_cpp/share/ament_index/resource_index/package_run_dependencies/my_robot_control_cpp
 /home/knalum/ros2_ws/install/my_robot_control_cpp/share/ament_index/resource_index/parent_prefix_path/my_robot_control_cpp
 /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/ament_prefix_path.sh

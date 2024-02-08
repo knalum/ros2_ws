@@ -1,0 +1,24 @@
+[0.419s] Invoking command in '/home/knalum/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/knalum/ros2_ws/build/my_robot_controller/prefix_override:/home/knalum/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/knalum/ros2_ws/build/my_robot_controller/build install --record /home/knalum/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed
+[0.548s] running egg_info
+[0.548s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.549s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.549s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[0.549s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.549s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.550s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.551s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.551s] running build
+[0.551s] running build_py
+[0.551s] running install
+[0.551s] running install_lib
+[0.552s] running install_data
+[0.552s] running install_egg_info
+[0.553s] removing '/home/knalum/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.553s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/knalum/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[0.553s] running install_scripts
+[0.565s] Installing draw_circle script to /home/knalum/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.565s] Installing pose_subscriber script to /home/knalum/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.565s] Installing test_node script to /home/knalum/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.565s] Installing turtle_controller script to /home/knalum/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.566s] writing list of installed files to '/home/knalum/ros2_ws/build/my_robot_controller/install.log'
+[0.581s] Invoked command in '/home/knalum/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/knalum/ros2_ws/build/my_robot_controller/prefix_override:/home/knalum/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/knalum/ros2_ws/build/my_robot_controller/build install --record /home/knalum/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed

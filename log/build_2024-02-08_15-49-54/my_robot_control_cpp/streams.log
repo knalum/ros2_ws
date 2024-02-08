@@ -1,0 +1,32 @@
+[0.079s] Invoking command in '/home/knalum/ros2_ws/build/my_robot_control_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knalum/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/knalum/ros2_ws/build/my_robot_control_cpp -- -j4 -l4
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target draw_circle[0m
+[0.125s] [ 25%] Built target pose_subscriber
+[0.128s] [ 37%] [32mBuilding CXX object CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o[0m
+[0.129s] [ 62%] Built target subscriber
+[0.143s] [ 87%] Built target publisher
+[2.262s] [100%] [32m[1mLinking CXX executable draw_circle[0m
+[2.376s] [100%] Built target draw_circle
+[2.387s] Invoked command in '/home/knalum/ros2_ws/build/my_robot_control_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knalum/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/knalum/ros2_ws/build/my_robot_control_cpp -- -j4 -l4
+[2.421s] Invoking command in '/home/knalum/ros2_ws/build/my_robot_control_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knalum/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/knalum/ros2_ws/build/my_robot_control_cpp
+[2.426s] -- Install configuration: ""
+[2.426s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/publisher
+[2.426s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/subscriber
+[2.427s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/pose_subscriber
+[2.427s] -- Installing: /home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/draw_circle
+[2.427s] -- Set runtime path of "/home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/draw_circle" to ""
+[2.427s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/ament_index/resource_index/package_run_dependencies/my_robot_control_cpp
+[2.427s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/ament_index/resource_index/parent_prefix_path/my_robot_control_cpp
+[2.428s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/ament_prefix_path.sh
+[2.428s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/ament_prefix_path.dsv
+[2.428s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/path.sh
+[2.428s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/path.dsv
+[2.428s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/local_setup.bash
+[2.428s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/local_setup.sh
+[2.428s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/local_setup.zsh
+[2.428s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/local_setup.dsv
+[2.428s] -- Installing: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/package.dsv
+[2.428s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/ament_index/resource_index/packages/my_robot_control_cpp
+[2.428s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/cmake/my_robot_control_cppConfig.cmake
+[2.428s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/cmake/my_robot_control_cppConfig-version.cmake
+[2.428s] -- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/package.xml
+[2.430s] Invoked command in '/home/knalum/ros2_ws/build/my_robot_control_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knalum/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/knalum/ros2_ws/build/my_robot_control_cpp

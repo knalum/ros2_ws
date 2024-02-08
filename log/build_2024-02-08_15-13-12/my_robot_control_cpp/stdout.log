@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[ 33%] Built target publisher
+[ 50%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o[0m
+[ 83%] Built target subscriber
+[100%] [32m[1mLinking CXX executable pose_subscriber[0m
+[100%] Built target pose_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/publisher
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/subscriber
+-- Installing: /home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/pose_subscriber
+-- Set runtime path of "/home/knalum/ros2_ws/install/my_robot_control_cpp/lib/my_robot_control_cpp/pose_subscriber" to ""
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/ament_index/resource_index/package_run_dependencies/my_robot_control_cpp
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/ament_index/resource_index/parent_prefix_path/my_robot_control_cpp
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/path.sh
+-- Installing: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/environment/path.dsv
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/local_setup.bash
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/local_setup.sh
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/local_setup.zsh
+-- Installing: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/local_setup.dsv
+-- Installing: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/package.dsv
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/ament_index/resource_index/packages/my_robot_control_cpp
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/cmake/my_robot_control_cppConfig.cmake
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/cmake/my_robot_control_cppConfig-version.cmake
+-- Up-to-date: /home/knalum/ros2_ws/install/my_robot_control_cpp/share/my_robot_control_cpp/package.xml

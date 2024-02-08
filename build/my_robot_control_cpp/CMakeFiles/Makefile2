@@ -65,6 +65,8 @@ CMAKE_BINARY_DIR = /home/knalum/ros2_ws/build/my_robot_control_cpp
 # The main recursive "all" target.
 all: CMakeFiles/publisher.dir/all
 all: CMakeFiles/subscriber.dir/all
+all: CMakeFiles/pose_subscriber.dir/all
+all: CMakeFiles/draw_circle.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,8 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/my_robot_control_cpp_uninstall.dir/clean
 clean: CMakeFiles/publisher.dir/clean
 clean: CMakeFiles/subscriber.dir/clean
+clean: CMakeFiles/pose_subscriber.dir/clean
+clean: CMakeFiles/draw_circle.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +141,7 @@ CMakeFiles/my_robot_control_cpp_uninstall.dir/clean:
 CMakeFiles/publisher.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles --progress-num=1,2 "Built target publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles --progress-num=5,6 "Built target publisher"
 .PHONY : CMakeFiles/publisher.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +167,7 @@ CMakeFiles/publisher.dir/clean:
 CMakeFiles/subscriber.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles --progress-num=3,4 "Built target subscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles --progress-num=7,8 "Built target subscriber"
 .PHONY : CMakeFiles/subscriber.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +185,58 @@ subscriber: CMakeFiles/subscriber.dir/rule
 CMakeFiles/subscriber.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/clean
 .PHONY : CMakeFiles/subscriber.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pose_subscriber.dir
+
+# All Build rule for target.
+CMakeFiles/pose_subscriber.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_subscriber.dir/build.make CMakeFiles/pose_subscriber.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_subscriber.dir/build.make CMakeFiles/pose_subscriber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles --progress-num=3,4 "Built target pose_subscriber"
+.PHONY : CMakeFiles/pose_subscriber.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pose_subscriber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pose_subscriber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/pose_subscriber.dir/rule
+
+# Convenience name for target.
+pose_subscriber: CMakeFiles/pose_subscriber.dir/rule
+.PHONY : pose_subscriber
+
+# clean rule for target.
+CMakeFiles/pose_subscriber.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_subscriber.dir/build.make CMakeFiles/pose_subscriber.dir/clean
+.PHONY : CMakeFiles/pose_subscriber.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/draw_circle.dir
+
+# All Build rule for target.
+CMakeFiles/draw_circle.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles --progress-num=1,2 "Built target draw_circle"
+.PHONY : CMakeFiles/draw_circle.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/draw_circle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/draw_circle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/knalum/ros2_ws/build/my_robot_control_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/draw_circle.dir/rule
+
+# Convenience name for target.
+draw_circle: CMakeFiles/draw_circle.dir/rule
+.PHONY : draw_circle
+
+# clean rule for target.
+CMakeFiles/draw_circle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/clean
+.PHONY : CMakeFiles/draw_circle.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

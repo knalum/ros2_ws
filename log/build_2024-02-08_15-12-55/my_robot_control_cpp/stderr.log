@@ -1,0 +1,20 @@
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:11:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ is not a member of ‘[01m[Kturtlesim::msg[m[K’; did you mean ‘[01m[KPose[m[K’?
+   11 |     rclcpp::Subscription<turtlesim::msg::[01;31m[Kpose[m[K>::SharedPtr subscription;
+      |                                          [01;31m[K^~~~[m[K
+      |                                          [32m[KPose[m[K
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:11:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   11 |     rclcpp::Subscription<turtlesim::msg::pose[01;31m[K>[m[K::SharedPtr subscription;
+      |                                              [01;31m[K^[m[K
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:11:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:11:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:11:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:11:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   11 |     rclcpp::Subscription<turtlesim::msg::pose>::[01;31m[KSharedPtr[m[K subscription;
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+      |                                                          [32m[K;[m[K
+[01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:11:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription[m[K’ does not name a type
+   11 |     rclcpp::Subscription<turtlesim::msg::pose>::SharedPtr [01;31m[Ksubscription[m[K;
+      |                                                           [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pose_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

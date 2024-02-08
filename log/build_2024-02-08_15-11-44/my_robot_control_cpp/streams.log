@@ -1,0 +1,13 @@
+[0.089s] Invoking command in '/home/knalum/ros2_ws/build/my_robot_control_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knalum/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/knalum/ros2_ws/build/my_robot_control_cpp -- -j4 -l4
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[0.147s] [ 33%] Built target subscriber
+[0.160s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o[0m
+[0.166s] [ 83%] Built target publisher
+[0.307s] [01m[K/home/knalum/ros2_ws/src/my_robot_control_cpp/src/pose_subscriber.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: No such file or directory
+[0.307s]     2 | #include [01;31m[K"turtlesim/msg/pose.hpp"[m[K
+[0.307s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.307s] compilation terminated.
+[0.310s] gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
+[0.310s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pose_subscriber.dir/all] Error 2
+[0.310s] gmake: *** [Makefile:146: all] Error 2
+[0.312s] Invoked command in '/home/knalum/ros2_ws/build/my_robot_control_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/knalum/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/knalum/ros2_ws/build/my_robot_control_cpp -- -j4 -l4
